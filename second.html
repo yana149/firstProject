@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поля вводу</title>
+</head>
+<body>
+<form name="Test" action="http://192.168.1.5:8080/university/login" method="post">
+    <label for="zapros">Введіть Ваше ім'я:</label>
+    <input type="text" placeholder="Пошук..." id="zapros" title="Ваше ім'я" name="login"/>
+   <br/><br/>
+
+    <label for="date">День народження: </label>
+    <input type="date" name="date" id="date">
+    <br/><br/>
+
+    <label for="male">Чоловік: </label><input type="radio" name="state" id="male">
+    <label for="female">Жінка: </label><input type="radio" name="state" id="female">
+    <br/><br/>
+
+    <label for="password">Кодове слово: </label><input type="password" name="password" id="password">
+    <br/><br/>
+    <input type="color"/>
+    <br/><br/>
+    З усім згоден <input type="checkbox"/>
+    <br/><br/>
+    <input type="reset" value="Очистити"/>
+</form>
+</body>
+</html>
